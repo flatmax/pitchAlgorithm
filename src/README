@@ -1,0 +1,19 @@
+To test this source, the file C4.chord.wav.onsets is included.
+This file is essentially the windowed power spectrum of the file C4.chord.wav.
+
+To test do the following .... start octave :
+$ octave
+GNU Octave, version 2.0.17 (i386-pc-linux-gnu).
+Copyright (C) 1996, 1997, 1998, 1999, 2000, 2001, 2002 John W. Eaton.
+This is free software with ABSOLUTELY NO WARRANTY.
+For details, type `warranty'.
+
+octave:1> 
+
+Then run the following :
+octave:1> test
+
+To compare to the original windowing and FFT'ing code, please process in the following way :
+
+octave:1> load -import ./C4.chord.wav.onsets 
+octave:2> [max, pitchScale1, pitchScale2]=findPitch9 (C4);

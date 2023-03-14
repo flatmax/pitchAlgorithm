@@ -1,0 +1,5 @@
+v1.0 : Change-log begun
+	First release
+v1.1 : Added a windowing function 'window.m'
+	Altered 'test.m' to do all of the processing directly from audio 
+	files (using the window function).

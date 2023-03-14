@@ -1,0 +1,16 @@
+MFFM Pitch algorithm
+
+This algorithm models the Lateral OlivoCochlear efferent and inner hair cell 
+afferent neural crossover. Please refer to the included paper and PPT 
+presentation for more information.
+
+REQUIREMENTS :
+This software is tested with the octave 4GL math language get it today from
+http://www.octave.org
+It is quite possible that it works with Matlab as well, but is untested.
+
+The copyright ensures GPL development.
+For commercialization, a LGPL version of this code is available in C/C++.
+Please contact the author to discuss this further.
+
+Matt Flax <flatmax at ieee dot org>
